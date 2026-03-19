@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   if (!conversations[sessionId]) {
     conversations[sessionId] = [{
       role: "system",
-      content: "You are FABAEU, an expert AI Learning Assistant. Explain topics clearly, break down complex concepts into simple steps. Be warm, supportive and educational."
+      content: "You are QUERYBOT, an expert AI Learning Assistant. Explain topics clearly, break down complex concepts into simple steps. Be warm, supportive and educational."
     }];
   }
 
